@@ -35,7 +35,7 @@
 #include <stdint.h>
 #include <sys/types.h>
 
-#include "DoubleLinkedList/doubleLinkedList.h"
+#include "double-linked-lists_c/DoubleLinkedList/doubleLinkedList.h"
 
 /* These options can be OR'd in a call to the delete functions to specify
  * if also the data in the nodes must be freed in the heap.
