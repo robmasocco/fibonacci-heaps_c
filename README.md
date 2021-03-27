@@ -3,7 +3,7 @@ Implementation of the Fibonacci Heap priority queue, ready for user applications
 
 They are a very efficient kind of priority queue, but you'll have to look elsewhere for a complete description of what such a data structure can do, and why this one specifically is so fast. Currently, keys are 64 bits unsigned integers and elements are _void *_, so anything that fits in 8 bytes will do. It relies heavily on dynamic memory and the heap, and supports dynamic data as well (elements could be pointers to the heap themselves). More implementations supporting different data types for keys might be added in the future.
 
-**WARNING:** Requires the [Double Linked Lists](https://github.com/robmasocco/double-linked-lists_c) library to work. See the header file for a more detailed description.
+**WARNING:** Requires the [Double Linked Lists](https://github.com/robmasocco/double-linked-lists_c) library to work, which is included as a submodule so this repository has to be cloned with the option *--recurse-submodules*. See the header file for a more detailed description.
 
 ## Can I use this?
 
