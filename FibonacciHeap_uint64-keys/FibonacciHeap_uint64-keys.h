@@ -29,8 +29,8 @@
  * See the attached LICENSE file.
  */
 
-#ifndef _FIBONACCIHEAP_UINT64_KEYS_H
-#define _FIBONACCIHEAP_UINT64_KEYS_H
+#ifndef FIBONACCIHEAP_UINT64_KEYS_H
+#define FIBONACCIHEAP_UINT64_KEYS_H
 
 #include <stdint.h>
 #include <sys/types.h>
